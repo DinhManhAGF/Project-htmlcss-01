@@ -9,21 +9,23 @@
         <link rel="stylesheet" href="./assets/css/styles.css" />
     </head>
     <body>
-        <main style="height: 10000px">
-            <!-- Header -->
-            <header class="header">
+        <main id="home">
+            <header class="fixed-header">
                 <div class="content">
+                    <!-- Navbar -->
                     <nav class="navbar">
                         <!-- Logo -->
-                        <img src="./assets/img/logo.svg" alt="Besnik." />
+                        <a href="#!">
+                            <img src="./assets/img/logo.svg" alt="Besnik." />
+                        </a>
 
                         <!-- Navigation -->
                         <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Features</a></li>
-                            <li><a href="">Services</a></li>
-                            <li><a href="">Resources</a></li>
-                            <li><a href="">Contact</a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#service">Services</a></li>
+                            <li><a href="#feature">Features</a></li>
+                            <li><a href="#resource">Resources</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
 
                         <!-- Action -->
@@ -32,7 +34,12 @@
                             <a href="#!" class="btn action-btn">Sign up</a>
                         </div>
                     </nav>
+                </div>
+            </header>
 
+            <!-- Hero -->
+            <div class="hero-wrap">
+                <div class="content">
                     <div class="hero">
                         <div class="info">
                             <p class="sub-title">Welcome to Besnik Agency</p>
@@ -54,7 +61,7 @@
                         />
                     </div>
                 </div>
-            </header>
+            </div>
 
             <!-- Clients -->
             <div class="clients">
@@ -106,7 +113,7 @@
             </div>
 
             <!-- Guides -->
-            <div class="guides">
+            <div id="service" class="guides">
                 <div class="content">
                     <h2 class="sub-title">How its works?</h2>
                     <p class="desc">
@@ -172,7 +179,7 @@
             </div>
 
             <!-- Featured -->
-            <div class="featured">
+            <div class="featured" id="feature">
                 <div class="content">
                     <header>
                         <h3 class="sub-title">Featured Properties</h3>
@@ -316,7 +323,7 @@
             </div>
 
             <!-- Stats -->
-            <div class="stats">
+            <div id="resource" class="stats">
                 <div class="content">
                     <div class="row">
                         <div class="img-block">
@@ -490,7 +497,7 @@
             </div>
 
             <!-- Subcription -->
-            <div class="subscription">
+            <div id="contact" class="subscription">
                 <div class="content">
                     <div class="body">
                         <div class="info">
